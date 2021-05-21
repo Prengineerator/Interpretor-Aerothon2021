@@ -16,4 +16,4 @@ def who_is(session, query):
 
 
 first_question = "Hi, how are you?"
-Chat("examples/Example.template").converse(first_question)
+Chat("AIbot/Example.template").converse(first_question)
