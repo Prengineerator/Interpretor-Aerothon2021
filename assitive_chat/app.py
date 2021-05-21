@@ -1,8 +1,20 @@
+from flask import Flask, request, jsonify, render_template
 import os
 import dialogflow
 import requests
 import json
 import pusher
+
+app = Flask(__name__)
+
+# initialize Pusher
+pusher_client = pusher.Pusher(
+    app_id=os.getenv('PUSHER_APP_ID'),
+    key=os.getenv('PUSHER_KEY'),
+    secret=os.getenv('PUSHER_SECRET'),
+    cluster=os.getenv('PUSHER_CLUSTER'),
+    ssl=True)
+
 
 def detect_intent_texts(project_id, session_id, text, language_code):
     session_client = dialogflow.SessionsClient()
@@ -18,7 +30,7 @@ def detect_intent_texts(project_id, session_id, text, language_code):
         return response.query_result.fulfillment_text
 
 
-
+@app.route('/send_message', methods=['POST'])
 def send_message():
     try:
         socketId = request.form['socketId']
@@ -40,4 +52,9 @@ def send_message():
         socketId
     )
 
-    return response_text
+    return jsonify(response_text)
+
+
+# run Flask app
+if __name__ == "__main__":
+    app.run()
