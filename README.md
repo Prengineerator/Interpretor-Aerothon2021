@@ -20,8 +20,9 @@ To provide high speed, automatic software integration, back-ups, mobility, Etc. 
 
 ## Project Architecture
 
+Flow chart of the proposed system
 <p align="center">
-  <img width="50%", src="#">
+  <img src="https://user-images.githubusercontent.com/46924224/119211405-865a6600-bacf-11eb-8651-8dd5590e3584.png">
 </p>
 
 ## Features
@@ -34,7 +35,7 @@ Our proposed system is capable of providing support and assistance to any naive 
   <li><b>Bug reporting window</b></li>
   <li><b>Collective Announcements</b></li>
   <li><b>Application usage, performance</b> : Provides a detailed chart of all the apps used with their performance review.</li>
-  <li><b>Message Classifier</b> : Fetchs the recently received message and classifies it as a spam or ham with the help of machine learning algorithms and notifies the user only when there is ham msg.</li>
+  <li><b>Message Classifier</b> : Fetches the recently received message and classifies it as a spam or ham with the help of machine learning algorithms and notifies the user only when there is ham msg.</li>
 </ul>
 
 
