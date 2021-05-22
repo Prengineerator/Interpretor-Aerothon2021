@@ -11,11 +11,11 @@
 
 <img src="https://lh3.googleusercontent.com/proxy/yc3ciWP1L-5-gRbSUUaWz_sujUn3gNt3Q_kWowVAKgTzp18Xhfn0NaeyVNaiHxTVfto91rehEuyTijaM5_BL5jQiWXZp0cXdoAUqCgB18qpIzEGYO8CeboTBZ-a-8Kc" align="left" alt="robot" width="160" height="235">
 
-An innovative solution that integrates the end to end user experience and application support into one single place. It's an onscreen floating widget that runs on top of any application/webpage, that connects the users with the IT product teams with one single click. General users using the system interact with a chatbot integrated with a Google-owned framework, DialogFlow, with a trained intent to help the users interact in a natural language.
+An innovative solution that integrates the end-to-end user experience and application support into one single place. It's an onscreen floating widget that runs on top of any application/webpage, that connects the users with the IT product teams with one single click. General users using the system interact with a chatbot integrated with a Google-owned framework, DialogFlow, with a trained intent to help the users interact in a natural language.
 
-It is customizable application with admin console that provides extended widget to achieve user intractability. Konnox also provides application navigation,user Support Chatbot, Co-creation and improvement of the Application, Bug reporting window, Collective announcements or notifications, Customization Adaptability and  Measures Application usage and performance.
+It is a customizable application with an admin console that provides an extended widget to achieve user intractability. Konnex also provides application navigation, user Support Chatbot, Co-creation and improvement of the Application, Bug reporting window, Collective announcements or notifications, Customization Adaptability, and Measures Application usage and performance.
 
-To provide high speed, automatic software integration, back-ups, mobility, Etc. for certain complex machine learning algorithms, the proposed system is a partial cloud-based solution. DigitalOcean, an Infrastructure as a service (IaaS) provider, is used. 
+To provide high speed, automatic software integration, back-ups, mobility, etc. for certain complex machine learning algorithms, the proposed system is a partial cloud-based solution. DigitalOcean, an Infrastructure as a service (IaaS) provider, is used.
  
 
 ## Project Architecture
